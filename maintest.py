@@ -3,7 +3,7 @@ from fastapi import APIRouter
 from cryptography.fernet import Fernet
  
 app = FastAPI()
-
+#Code develop
 key = bytes("o11Z3kCdtT-VmXxHMhf04aUmjFXRiAYgTvIo4EHKBfE=", 'UTF-8')
 fernet = Fernet(key)
 #decMessage = fernet.decrypt(bytes("gAAAAABjvB6iUv8nJRk2AapO8VtSJkOa8pP1PV_0M6FFlHq5EsWcOjF1fknp4QHhyivAj9PsE-ws2ZU4Xv8REtHpyfxlFBHX3w==", 'UTF-8')).decode()
